@@ -1,0 +1,15 @@
+{
+  "ownershipAcknowledged": false,
+  "targetUrl": "https://your-owned-site.example/campaign-test",
+  "iterations": 10,
+  "headless": false,
+  "delayMsBetweenIterations": 1000,
+  "timeoutMs": 15000,
+  "selectors": {
+    "agree": "text=Agree",
+    "start": "text=Start lottery",
+    "result": "[data-testid='lottery-result']"
+  },
+  "waitAfterStartMs": 1000,
+  "screenshotDir": "screenshots"
+}
